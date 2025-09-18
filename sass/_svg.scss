@@ -1,0 +1,24 @@
+.svg-text-line {
+    animation: fadeIn linear 5s infinite;
+}
+
+.svg-hand {
+    animation: moveUpDown linear 0.5s infinite;
+
+    &:first-child {
+        animation-delay: 0.8s;
+    }
+}
+
+.codeSymOdd {
+    animation: floatLeft linear 5s infinite;
+}
+
+.codeSymEven {
+    animation: floatRight linear 5s infinite;
+}
+
+.binary-codes>* {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}

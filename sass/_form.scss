@@ -1,0 +1,14 @@
+.form-floating>.form-control:focus~label {
+    transform: scale(0.95) translateY(-1.7rem) translateX(-0.45rem) !important;
+}
+
+textarea {
+    field-sizing: content;
+    resize: none;
+}
+
+.form-floating>.form-control {
+    height: auto;
+    field-sizing: content;
+    // resize: none;
+}

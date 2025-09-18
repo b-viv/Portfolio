@@ -1,0 +1,14 @@
+.read-more-btn {
+    width: 200px;
+}
+
+.read-more-btn:hover .bi-arrow-down {
+    top: -150%;
+    animation: arrow-shows-down 3s cubic-bezier(0.28, 0.11, 0.45, 1.48) infinite;
+}
+
+.bi-arrow-down {
+    color: white;
+    right: 40px;
+    bottom: -20px;
+}

@@ -1,0 +1,90 @@
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, 1px)
+    }
+
+    100% {
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+
+}
+
+@keyframes arrow-shows-down {
+    0% {
+        top: -100%;
+        opacity: .1;
+    }
+
+    50% {
+        top: 10%;
+        opacity: 1;
+    }
+
+    60% {
+        top: 15%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 110%;
+        opacity: .1;
+    }
+}
+
+@keyframes nav-strach {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 100vh;
+    }
+}
+
+@keyframes nav-animation {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: 0
+    }
+}
+
+@keyframes faded {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.5
+    }
+}

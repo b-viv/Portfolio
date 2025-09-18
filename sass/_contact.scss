@@ -1,0 +1,52 @@
+#contact {
+    .footer-title {
+        font-family: $ff-Playfair;
+    }
+
+    fieldset {
+        border: 1px solid rgba(255, 255, 255, 0.205);
+
+        legend {
+            width: fit-content;
+            float: none;
+            padding: 0 15px;
+
+            span {
+                font-family: $ff-Playfair;
+                letter-spacing: 1px;
+            }
+        }
+
+        .form-control {
+            font-family: "Poppins", serif;
+            font-weight: 500;
+            outline: 1px solid $secondary;
+            border: none;
+
+            &:focus {
+                box-shadow: none;
+                border: none;
+            }
+
+            &:active {
+                outline-color: $secondary;
+                border: none;
+            }
+
+            &:user-valid {
+                outline-color: $secondary;
+                border: none;
+            }
+
+            &:user-invalid {
+                outline-color: rgb(174, 3, 3);
+                border: 1px solid rgb(103, 2, 2);
+            }
+        }
+
+        label {
+            padding: .9rem .75rem;
+            font-weight: 500;
+        }
+    }
+}
